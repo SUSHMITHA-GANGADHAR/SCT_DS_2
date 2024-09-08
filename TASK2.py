@@ -63,7 +63,7 @@ plt.show()
 
 # Pairplot
 sns.pairplot(data[['Age', 'Fare', 'Survived']])
-#plt.title('pairplot')
-#plt.figure(figsize=(12, 8))
-#plt.title()
+plt.title('pairplot')
+plt.figure(figsize=(12, 8))
+plt.title()
 plt.show()
